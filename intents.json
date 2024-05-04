@@ -1,0 +1,108 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["goodbye", "bye", "see you later", "take care", "farewell", "have a nice day"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+        "tag": "gratitude",
+        "patterns": ["thank you", "thanks a lot", "much appreciated", "thank you very much"],
+        "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+        "tag": "apologies",
+        "patterns": ["sorry", "my apologies", "I apologize", "forgive me"],
+        "responses": ["No problem!", "Apology accepted.", "It's okay."]
+    },
+    {
+        "tag": "requests",
+        "patterns": ["please", "could you", "would you mind", "can you please"],
+        "responses": ["Sure, I'd be happy to.", "Of course!", "Certainly."]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["how's the weather", "what's the forecast", "is it raining", "weather update"],
+        "responses": ["The weather is sunny/cloudy/rainy/etc.", "It's currently [description of weather]."]
+    },
+    {
+        "tag": "time",
+        "patterns": ["what time is it", "do you have the time", "current time", "time please"],
+        "responses": ["It's [current time].", "The time is [current time]."]
+    },
+    {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "got any jokes", "make me laugh", "joke please"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+    },
+    {
+        "tag": "music",
+        "patterns": ["recommend some music", "any music suggestions", "favorite song", "what's playing"],
+        "responses": ["You might like [artist/song].", "How about listening to [genre/artist]?", "I recommend [song/album]."]
+    },
+    {
+        "tag": "food",
+        "patterns": ["recommend some food", "what should I eat", "favorite dish", "hungry"],
+        "responses": ["How about trying [dish/cuisine]?", "You might enjoy [restaurant/dish].", "I suggest [type of food/restaurant]."]
+    },
+    {
+        "tag": "news",
+        "patterns": ["what's in the news", "latest headlines", "any news updates", "current events"],
+        "responses": ["Here are the latest headlines: [news summary].", "In the news today: [news update]."]
+    },
+    {
+        "tag": "movies",
+        "patterns": ["recommend a movie", "what movie should I watch", "favorite film", "cinema tonight"],
+        "responses": ["How about watching [movie title]?", "You might enjoy [genre/actor/director].", "I recommend [movie]."]
+    },
+    {
+        "tag": "travel",
+        "patterns": ["recommend a travel destination", "where should I travel", "favorite travel spot", "vacation ideas"],
+        "responses": ["Consider visiting [destination].", "You might enjoy exploring [place].", "I recommend [destination/activity]."]
+    },
+    {
+        "tag": "fitness",
+        "patterns": ["fitness tips", "workout suggestions", "how to stay fit", "exercise ideas"],
+        "responses": ["Try incorporating [exercise] into your routine.", "Remember to stay hydrated and stretch!", "Consistency is key in maintaining a healthy lifestyle."]
+    },
+    {
+        "tag": "technology",
+        "patterns": ["recommend a gadget", "latest tech trends", "favorite tech product", "gadgets to buy"],
+        "responses": ["You might like [gadget/product].", "Consider checking out [brand/product].", "I recommend [tech item]."]
+    },
+    {
+        "tag": "books",
+        "patterns": ["recommend a book", "what should I read", "favorite author", "book suggestions"],
+        "responses": ["How about reading [book title] by [author]?", "You might enjoy [genre/author].", "I recommend [book]."]
+    },
+    {
+        "tag": "health",
+        "patterns": ["health tips", "wellness advice", "how to stay healthy", "healthy living"],
+        "responses": ["Remember to get enough sleep and stay hydrated.", "Incorporate plenty of fruits and vegetables into your diet.", "Regular exercise is important for maintaining good health."]
+    },
+    {
+        "tag": "pets",
+        "patterns": ["pet care tips", "how to care for pets", "animal care advice", "pet health tips"],
+        "responses": ["Make sure to provide plenty of exercise and mental stimulation for your pet.", "Regular vet check-ups are important for your pet's health.", "Remember to give your pet lots of love and attention!"]
+    },
+    {
+        "tag": "finance",
+        "patterns": ["financial advice", "money management tips", "investment suggestions", "saving money tips"],
+        "responses": ["Create a budget and stick to it.", "Consider investing in [investment option].", "Automate your savings to make it easier to save money."]
+    },
+    {
+        "tag": "hobbies",
+        "patterns": ["hobby suggestions", "what hobby should I try", "favorite hobby", "how to find a hobby"],
+        "responses": ["You might enjoy [hobby/activity].", "Consider trying [new hobby].", "Exploring different hobbies can be a fun way to discover new interests."]
+    },
+    {
+        "tag": "motivation",
+        "patterns": ["motivational quotes", "inspirational messages", "need motivation", "motivate me"],
+        "responses": ["Believe you can and you're halfway there. - Theodore Roosevelt", "The only way to do great work is to love what you do. - Steve Jobs", "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill"]
+    }      
+]
+}
